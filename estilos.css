@@ -1,0 +1,136 @@
+body
+{
+	background: url("fondo1.jpg");
+}
+
+
+
+#banner{
+	width: 870px;
+	height: 270px;
+	margin-left: 220px;
+}
+
+
+
+
+
+
+
+#periodo2{
+	list-style: none;
+	font-size: 330%;
+	background: url("boton1.PNG");
+	background-repeat: no-repeat;
+	margin-left: 33%;
+	position: absolute;
+	width: 24%; 
+	height: 24%;
+	padding: 1%;
+}
+
+#periodo2:hover{
+	transition: all 0.1s;
+	color: #EACCC7;
+	background: url("moldentregas.jpeg");
+	background-repeat: no-repeat;
+	height: 90%;
+}
+
+#periodo3{
+	list-style: none;
+	font-size: 330%;
+	background: url("moldeboton.jpeg");
+	background-repeat: no-repeat;
+	width: 24%; 
+	height: 24%;
+	margin-left: 60%;
+	position: absolute;
+	padding: 1%;
+}
+
+#periodo3:hover{
+	color: #D4F4C0;
+	transition: all 0.1s;
+	background: url("moldentregas.jpeg");
+	background-repeat: no-repeat;
+	height: 90%;
+}
+
+/*ENTREGAS P1 */
+
+#entregasp1 li{
+	list-style: none;
+	padding: 12%;
+}
+
+#entregasp1 a{
+	
+	color: black; 
+	text-decoration: none;
+	font-size: 50%;
+	text-align: center;
+	position: absolute;
+	display: none;
+}
+
+#periodo1:hover #entregasp1 a{
+	display: block;
+}
+
+#entregasp1 li :hover{
+	transition: all 0.5s;
+	color: #C7E3EA;
+	font-size: 55%;
+}
+
+#entregasp2 a{
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	font-size: 50%;
+	text-align: center;
+	position: absolute;
+	display: none;
+}
+
+#entregasp2 li{
+	list-style: none;
+	padding: 12%;
+}
+
+#entregasp2 li :hover{
+	transition: all 0.5s;
+	color: #EACCC7;
+	font-size: 55%;
+}
+
+#periodo2:hover #entregasp2 a{
+	display: block;
+}
+
+#entregasp3 a{
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	font-size: 50%;	
+
+	text-align: center;
+	position: absolute;
+	display: none;
+}
+
+#entregasp3 li{
+	list-style: none;
+	padding: 12%;
+}
+
+#entregasp3 li :hover{
+	transition: all 0.5s;
+	color: #D4F4C0;
+	font-size: 55%;
+}
+
+#periodo3:hover #entregasp3 a{
+	display: block;
+}
